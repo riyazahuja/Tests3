@@ -9,7 +9,7 @@ package «Tests3» where
   -- add any additional package configuration options here
 
 require mathlib from git
-  "https://github.com/leanprover-community/mathlib4.git"
+  "https://github.com/leanprover-community/mathlib4.git" @ "bbf0d1e39b5faac9276413942ac15bd64de65c1e"
 
 @[default_target]
 lean_lib «Tests3» where
